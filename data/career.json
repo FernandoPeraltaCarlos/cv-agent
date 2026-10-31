@@ -1,0 +1,157 @@
+{
+  "as_of": "2026-10",
+  "method": "Whole calendar months, inclusive endpoints; overlapping months counted once. Ongoing roles stop at as_of. Estimates describe documented role periods, not measured continuous use of each skill.",
+  "reconciliation": [
+    "CV and portfolio agree on HSBC ending 2026-08; LinkedIn says current. Retain 2026-08.",
+    "CV and portfolio agree on Applabmx ending 2025-04; LinkedIn says 2025-06. Retain 2025-04.",
+    "CV and portfolio agree on COFAA systems starting 2019-11 and databases starting 2020-02; LinkedIn says 2019-08 and 2020-01. Retain CV dates.",
+    "LinkedIn adds DevStore MX founder since 2023-08 (ongoing at snapshot) and ArkusNexus internship 2021-09 through 2021-12. Ongoing status is as of review, not automatically inferred forever.",
+    "Portfolio states 7+ years; consolidated estimate uses the reviewed, de-duplicated month timeline instead of adding concurrent jobs."
+  ],
+  "roles": [
+    {
+      "id": "cofaa-systems",
+      "entity": "COFAA",
+      "role_es": "Administrador de Sistemas Informáticos",
+      "role_en": "Information Systems Administrator",
+      "start": "2019-11",
+      "end": "2020-01",
+      "source_ids": [
+        "cv-es-cofaa",
+        "cv-en-cofaa"
+      ]
+    },
+    {
+      "id": "cofaa-databases",
+      "entity": "COFAA",
+      "role_es": "Administrador de Bases de Datos",
+      "role_en": "Database Administrator",
+      "start": "2020-02",
+      "end": "2022-01",
+      "source_ids": [
+        "cv-es-cofaa",
+        "cv-en-cofaa"
+      ]
+    },
+    {
+      "id": "arkus",
+      "entity": "ArkusNexus",
+      "role_es": "Prácticas de desarrollo frontend",
+      "role_en": "Frontend development internship",
+      "start": "2021-09",
+      "end": "2021-12",
+      "source_ids": [
+        "linkedin-experience"
+      ]
+    },
+    {
+      "id": "industria",
+      "entity": "Industria Social",
+      "role_es": "Lead Web Developer",
+      "role_en": "Lead Web Developer",
+      "start": "2021-12",
+      "end": "2025-02",
+      "source_ids": [
+        "cv-es-industria",
+        "cv-en-industria"
+      ]
+    },
+    {
+      "id": "10bet",
+      "entity": "10Bet",
+      "role_es": "Mid Front-End Developer",
+      "role_en": "Mid Front-End Developer",
+      "start": "2022-10",
+      "end": "2023-03",
+      "source_ids": [
+        "cv-es-10bet",
+        "cv-en-10bet"
+      ]
+    },
+    {
+      "id": "devstore",
+      "entity": "DevStore MX",
+      "role_es": "Fundador",
+      "role_en": "Founder",
+      "start": "2023-08",
+      "end": null,
+      "source_ids": [
+        "linkedin-experience"
+      ]
+    },
+    {
+      "id": "brainfood",
+      "entity": "Brainfood Marketing",
+      "role_es": "WordPress Developer",
+      "role_en": "WordPress Developer",
+      "start": "2023-10",
+      "end": "2024-07",
+      "source_ids": [
+        "portfolio",
+        "linkedin-experience"
+      ]
+    },
+    {
+      "id": "rivka",
+      "entity": "Rivka",
+      "role_es": "Shopify Developer",
+      "role_en": "Shopify Developer",
+      "start": "2024-01",
+      "end": "2024-11",
+      "source_ids": [
+        "portfolio",
+        "linkedin-experience"
+      ]
+    },
+    {
+      "id": "stitchers",
+      "entity": "Stitchers.Space",
+      "role_es": "JavaScript Developer",
+      "role_en": "JavaScript Developer",
+      "start": "2024-02",
+      "end": "2024-11",
+      "source_ids": [
+        "portfolio",
+        "linkedin-experience"
+      ]
+    },
+    {
+      "id": "applab",
+      "entity": "Applabmx",
+      "role_es": "Shopify Developer",
+      "role_en": "Shopify Developer",
+      "start": "2024-06",
+      "end": "2025-04",
+      "source_ids": [
+        "cv-es-applab",
+        "cv-en-applab",
+        "portfolio"
+      ]
+    },
+    {
+      "id": "hsbc",
+      "entity": "HSBC",
+      "role_es": "Web Production Manager",
+      "role_en": "Web Production Manager",
+      "start": "2024-11",
+      "end": "2026-08",
+      "source_ids": [
+        "cv-es-hsbc",
+        "cv-en-hsbc",
+        "portfolio"
+      ]
+    },
+    {
+      "id": "charlotte",
+      "entity": "Charlotte's Web",
+      "role_es": "Shopify Developer",
+      "role_en": "Shopify Developer",
+      "start": "2026-02",
+      "end": "2026-08",
+      "source_ids": [
+        "portfolio",
+        "linkedin-experience"
+      ]
+    }
+  ]
+}

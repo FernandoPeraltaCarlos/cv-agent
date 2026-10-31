@@ -1,0 +1,5 @@
+# Bind secrets are UID 0 inside a rootless daemon. The copy is readable only
+# through this mounted file or by the owner traversing the host's 0700 directory.
+secrets:
+  api_key:
+    file: ./.secrets/rootless_api_key

@@ -1,0 +1,21 @@
+[Unit]
+Description=Isolated rootless Docker daemon for agent-cv
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+Environment=XDG_RUNTIME_DIR=/home/dev/projects/agent-cv/.runtime/docker-run
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStartPre=/usr/bin/python3 /home/dev/projects/agent-cv/scripts/wait-proxy-network.py
+ExecStart=/usr/bin/dockerd-rootless.sh --host=unix:///home/dev/projects/agent-cv/.runtime/docker-run/docker.sock --data-root=/home/dev/projects/agent-cv/.runtime/docker-data --exec-root=/home/dev/projects/agent-cv/.runtime/docker-exec
+Restart=on-failure
+RestartSec=3
+Delegate=yes
+KillMode=mixed
+TimeoutStopSec=60
+TimeoutStartSec=120
+UMask=0077
+
+[Install]
+WantedBy=default.target

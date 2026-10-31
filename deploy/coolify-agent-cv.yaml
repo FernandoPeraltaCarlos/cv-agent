@@ -1,0 +1,37 @@
+# Coolify > Servers > this VPS > Proxy > Dynamic Configurations > Add
+# Filename: agent-cv.yaml
+http:
+  middlewares:
+    agent-cv-force-https:
+      redirectScheme:
+        scheme: https
+        permanent: true
+
+  routers:
+    agent-cv-http:
+      rule: Host(`agent-cv.fernandoperalta.xyz`)
+      entryPoints:
+        - http
+      middlewares:
+        - agent-cv-force-https
+      service: agent-cv
+
+    agent-cv-https:
+      rule: Host(`agent-cv.fernandoperalta.xyz`)
+      entryPoints:
+        - https
+      service: agent-cv
+      tls:
+        certResolver: letsencrypt
+
+  services:
+    agent-cv:
+      loadBalancer:
+        healthCheck:
+          path: /healthz
+          interval: 15s
+          timeout: 3s
+        responseForwarding:
+          flushInterval: -1ms
+        servers:
+          - url: http://172.19.0.1:8012

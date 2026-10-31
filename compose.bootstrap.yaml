@@ -1,0 +1,8 @@
+# Only during model download. Recreate with compose.yaml alone to remove egress.
+services:
+  ollama:
+    networks:
+      - private
+      - download
+networks:
+  download: {}

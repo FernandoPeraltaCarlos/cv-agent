@@ -1,0 +1,12 @@
+.git
+.venv
+.env
+.secrets
+.runtime
+.cache
+reports
+tests
+data/incoming
+data/state
+__pycache__
+*.egg-info

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-cv"
+version = "0.1.0"
+description = "Local, evidence-bound CV agent with an Open Responses text API"
+requires-python = ">=3.12"
+dependencies = ["fastapi==0.162.0", "httpx==0.28.1", "pydantic-settings==2.16.2", "uvicorn==0.54.0"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0", "pytest-asyncio==1.4.1", "ruff==0.17.3", "jsonschema==4.26.0", "openai==3.42.0", "pip-tools==7.6.2"]
+
+[project.scripts]
+agent-cv = "agent_cv.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC"]
+ignore = ["E501"]

@@ -1,0 +1,448 @@
+[
+  {
+    "id": "employer-list-01",
+    "group": "answerable",
+    "question": "ok, donde ha trabajado?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-02",
+    "group": "answerable",
+    "question": "no sabes donde ha trabajado?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-03",
+    "group": "answerable",
+    "question": "cuales son las empresas donde ha trabajado?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-04",
+    "group": "answerable",
+    "question": "¿Dónde ha trabajado Fernando?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-05",
+    "group": "answerable",
+    "question": "¿En qué compañías ha trabajado?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-06",
+    "group": "answerable",
+    "question": "Dime las organizaciones de su historial laboral",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-07",
+    "group": "answerable",
+    "question": "¿Puedes decirme dónde ha trabajado?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-08",
+    "group": "answerable",
+    "question": "Bueno, ¿puedes darme la lista de empresas donde ha trabajado?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-09",
+    "group": "answerable",
+    "question": "¿Me puedes contar en qué empresas estuvo?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-10",
+    "group": "answerable",
+    "question": "¿Cuáles son las empresas documentadas?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-11",
+    "group": "answerable",
+    "question": "Where has Fernando worked?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-12",
+    "group": "answerable",
+    "question": "Can you list the companies he has worked for?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-13",
+    "group": "answerable",
+    "question": "Don't you know where he worked?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-14",
+    "group": "answerable",
+    "question": "Which companies are in his professional background?",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-list-15",
+    "group": "answerable",
+    "question": "Tell me his employment history",
+    "previous_user": "",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ],
+    "expected_text": [
+      "HSBC",
+      "Applabmx",
+      "Industria Social",
+      "COFAA",
+      "ArkusNexus"
+    ],
+    "forbidden_text": [
+      "Fuentes:",
+      "Sources:"
+    ]
+  },
+  {
+    "id": "employer-qualifier-01",
+    "group": "unknown",
+    "question": "¿Ha trabajado en Banorte?",
+    "previous_user": "",
+    "expected_decisions": [
+      "unknown"
+    ],
+    "expected_facts": [],
+    "forbidden_facts": [
+      "career-overview"
+    ]
+  },
+  {
+    "id": "employer-qualifier-02",
+    "group": "unknown",
+    "question": "¿En qué empresas ha trabajado con Rust?",
+    "previous_user": "",
+    "expected_decisions": [
+      "unknown"
+    ],
+    "expected_facts": [],
+    "forbidden_facts": [
+      "career-overview"
+    ]
+  },
+  {
+    "id": "employer-qualifier-03",
+    "group": "unknown",
+    "question": "Which companies did he work for using Rust?",
+    "previous_user": "",
+    "expected_decisions": [
+      "unknown"
+    ],
+    "expected_facts": [],
+    "forbidden_facts": [
+      "career-overview"
+    ]
+  },
+  {
+    "id": "employer-qualifier-04",
+    "group": "unknown",
+    "question": "¿En qué empresas no ha trabajado?",
+    "previous_user": "",
+    "expected_decisions": [
+      "unknown"
+    ],
+    "expected_facts": [],
+    "forbidden_facts": [
+      "career-overview"
+    ]
+  },
+  {
+    "id": "employer-qualifier-05",
+    "group": "unknown",
+    "question": "Which companies has he never worked for?",
+    "previous_user": "",
+    "expected_decisions": [
+      "unknown"
+    ],
+    "expected_facts": [],
+    "forbidden_facts": [
+      "career-overview"
+    ]
+  },
+  {
+    "id": "employer-list-after-HSBC-01",
+    "group": "followup",
+    "question": "ok, donde ha trabajado?",
+    "previous_user": "¿Qué hizo en HSBC?",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ]
+  },
+  {
+    "id": "employer-list-after-HSBC-02",
+    "group": "followup",
+    "question": "no sabes donde ha trabajado?",
+    "previous_user": "¿Qué hizo en HSBC?",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ]
+  },
+  {
+    "id": "employer-list-after-HSBC-03",
+    "group": "followup",
+    "question": "cuales son las empresas donde ha trabajado?",
+    "previous_user": "¿Qué hizo en HSBC?",
+    "expected_decisions": [
+      "answer"
+    ],
+    "expected_facts": [
+      "career-overview"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+# This VPS: the existing Coolify Traefik is on 172.19.0.0/16, gateway 172.19.0.1.
+# Keep the loopback listener and add only that private Docker bridge address.
+services:
+  gateway:
+    ports:
+      - "${COOLIFY_GATEWAY_IP:-172.19.0.1}:${COOLIFY_GATEWAY_PORT:-8012}:8000"

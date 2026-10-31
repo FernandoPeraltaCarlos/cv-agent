@@ -1,0 +1,9 @@
+{
+  "ollama_version": "0.40.13",
+  "name": "qwen2.5:1.5b",
+  "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+  "size_bytes": 986061892,
+  "quantization": "Q4_K_M",
+  "parameters": "1.5B",
+  "license": "Apache-2.0"
+}

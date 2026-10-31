@@ -1,0 +1,18 @@
+# For an EXISTING Traefik file provider. Set the existing certificate resolver name.
+http:
+  routers:
+    agent-cv:
+      rule: Host(`agent-cv.fernandoperalta.xyz`)
+      entryPoints: [websecure]
+      service: agent-cv
+      tls:
+        certResolver: letsencrypt
+  services:
+    agent-cv:
+      loadBalancer:
+        servers:
+          # When Traefik runs in Docker, use the reachable host gateway instead of
+          # container loopback, and bind API_PORT to that private gateway only.
+          - url: http://127.0.0.1:8011
+        responseForwarding:
+          flushInterval: "-1ms"

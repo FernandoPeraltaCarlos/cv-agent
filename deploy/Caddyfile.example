@@ -1,0 +1,16 @@
+# Add this block to the EXISTING ingress, do not launch a competing proxy on 80/443.
+agent-cv.fernandoperalta.xyz {
+    request_body {
+        max_size 32KB
+    }
+    reverse_proxy 127.0.0.1:8011 {
+        flush_interval -1
+        transport http {
+            response_header_timeout 50s
+        }
+    }
+    header {
+        X-Content-Type-Options nosniff
+        Strict-Transport-Security "max-age=31536000"
+    }
+}

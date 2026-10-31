@@ -1,0 +1,35 @@
+{
+  "reviewed_at": "2026-10-31",
+  "status": "reviewed",
+  "privacy": "Only professional web and LinkedIn links; no email, phone, address or account revenue in the curated profile.",
+  "notes": [
+    "Spanish and English LaTeX agree on employers, dates, metrics, education, languages and skills.",
+    "English B1+ is distinguished from the B2 course; unconfirmed degree completion is not asserted.",
+    "Website and owner-provided LinkedIn MHTML extracted offline and manually consolidated. CV dates prevail where CV and website agree and LinkedIn differs. Reconciliation is recorded in data/career.json. Third-party profiles, messages, location, contact details and client revenue were excluded.",
+    "Public responses omit source labels; source IDs and original hashes remain internal for auditing."
+  ],
+  "sources": [
+    {
+      "filename": "cv_es_fernandoperalta.tex",
+      "path": "/home/dev/shared/agentes/agent-cv/cv_es_fernandoperalta.tex",
+      "sha256": "20dde0ce2b663bf3b04b4f9b65cae6cc47da620898fe4c515fca12f8887fd235"
+    },
+    {
+      "filename": "cv_en_fernandoperalta.tex",
+      "path": "/home/dev/shared/agentes/agent-cv/cv_en_fernandoperalta.tex",
+      "sha256": "ab2a9f408af89bf1d3d1bac67400e47c7f1fa162f98eafbbc15c99cb544dd413"
+    },
+    {
+      "filename": "portfolio.html",
+      "url": "https://fernandoperalta.xyz/",
+      "sha256": "0ccc93302a8bb400addbde13d3030603c36792e75da253d506113464dbf106e0",
+      "local_snapshot": "data/incoming/portfolio-update.html"
+    },
+    {
+      "filename": "(3) Fernando Peralta _ LinkedIn.mhtml",
+      "path": "/home/dev/shared/agentes/agent-cv/(3) Fernando Peralta _ LinkedIn.mhtml",
+      "sha256": "c02d83bc05e710094af3f4648a4492655a77701cf77a4984d90c36b3dbc4451b",
+      "scope": "Fernando Peralta experience section only; decoded as UTF-8."
+    }
+  ]
+}
